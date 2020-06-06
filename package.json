@@ -1,0 +1,21 @@
+{
+    "name": "leuven-vscode",
+    "displayName": "leuven-vscode",
+    "description": "Port of emacs-leuven-theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "leuven-light",
+                "uiTheme": "vs",
+                "path": "./themes/leuven-light-color-theme.json"
+            }
+        ]
+    }
+}
