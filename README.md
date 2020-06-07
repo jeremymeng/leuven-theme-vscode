@@ -1,13 +1,9 @@
-# README
-## This is the README for your extension "leuven-vscode"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Leuven Theme for VS Code
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+This is a port of [emacs-leuven-theme](https://github.com/fniessen/emacs-leuven-theme) for VS Code.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+This repo also uses copies of demo files from [Shades of Purple](https://github.com/ahmadawais/shades-of-purple-vscode).
+
+Thanks to Emacs community for all the awesome work!
 
 **Enjoy!**

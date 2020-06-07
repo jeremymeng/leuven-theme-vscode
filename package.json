@@ -1,6 +1,6 @@
 {
     "name": "leuven-vscode",
-    "displayName": "leuven-vscode",
+    "displayName": "Leuven Theme",
     "description": "Port of emacs-leuven-theme",
     "version": "0.0.1",
     "engines": {
