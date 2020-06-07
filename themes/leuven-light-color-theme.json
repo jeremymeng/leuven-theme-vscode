@@ -25,7 +25,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "",
 				"foreground": "#8D8D84"
 			}
 		},
@@ -44,6 +44,7 @@
 				"comment.block.documentation"
 			],
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#036A07"
 			}
 		},
@@ -99,7 +100,7 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#6434A3"
+				"foreground": "#BA36A5"
 			}
 		},
 		{
@@ -217,6 +218,20 @@
 			}
 		},
 		{
+			"name": "HTML: Separator",
+			"scope": "meta.separator.markdown",
+			"settings": {
+				"foreground": "#7F7F7F"
+			}
+		},
+		{
+			"name": "HTML: Tag Inline KBD",
+			"scope": "meta.tag.inline.kbd",
+			"settings": {
+				"foreground": "#7F7F7F"
+			}
+		},
+		{
 			"name": "HTML: Attribute Names",
 			"scope": [
 				"meta.tag entity.other.attribute-name",
@@ -278,6 +293,57 @@
 			}
 		},
 		{
+			"name": "Markup: Header Face 1",
+			"scope": "heading.1",
+			"settings": {
+				"foreground": "#3C3C3C",
+				"background": "#F0F0F0",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup: Header Face 2",
+			"scope": "heading.2",
+			"settings": {
+				"foreground": "#123555",
+				"background": "#E5F4FB",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup: Header Face 3",
+			"scope": "heading.3",
+			"settings": {
+				"foreground": "#005522",
+				"background": "#EFFFEF",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup: Header Face 4",
+			"scope": "heading.4",
+			"settings": {
+				"foreground": "#EA6300",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup: Header Face 5",
+			"scope": "heading.5",
+			"settings": {
+				"foreground": "#E3258D",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup: Header Face 6",
+			"scope": "heading.6",
+			"settings": {
+				"foreground": "#0077CC",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Markup: Changed",
 			"scope": "markup.changed",
 			"settings": {
@@ -288,7 +354,16 @@
 			"name": "Markup: Deletion",
 			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"background": "#FEE8E9"
+			}
+		},
+		{
+			"name": "Diff: Header",
+			"scope": "meta.diff.header",
+			"settings": {
+				"foreground": "#800000",
+				"background": "#FFFFAF"
 			}
 		},
 		{
@@ -309,14 +384,127 @@
 			"name": "Markup: Insertion",
 			"scope": "markup.inserted",
 			"settings": {
-				"foreground": "#000000"
+				"foreground": "#000000",
+				"background": "#DDFFDD"
 			}
 		},
 		{
 			"name": "Markup: Link",
 			"scope": "meta.link",
 			"settings": {
-				"foreground": "#4B83CD"
+				"fontStyle": "underline",
+				"foreground": "#006DAF"
+			}
+		},
+		{
+			"name": "Markup: Link Title",
+			"scope": "string.other.link.title.markdown",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#006DAF"
+			}
+		},
+		{
+			"name": "Markup: Link Description",
+			"scope": "string.other.link.description.markdown",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#006DAF"
+			}
+		},
+		{
+			"name": "Markup: Link Description Title",
+			"scope": "string.other.link.description.title.markdown",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#8D8D84"
+			}
+		},
+		{
+			"name": "Markup: Constant Other Reference Link",
+			"scope": "constant.other.reference.link.markdown",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#8D8D84"
+			}
+		},
+		{
+			"name": "Markup: Punctuation Def Constant",
+			"scope": "punctuation.definition.constant.markdown",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#8D8D84"
+			}
+		},
+		{
+			"name": "Markup: Punctuation Def Constant Begin",
+			"scope": "punctuation.definition.constant.begin.markdown",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#8D8D84"
+			}
+		},
+		{
+			"name": "Markup: Punctuation Def Constant End",
+			"scope": "punctuation.definition.constant.end.markdown",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#8D8D84"
+			}
+		},
+		{
+			"name": "Markup: Punctuation Def String Begin",
+			"scope": "punctuation.definition.string.begin.markdown",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#8D8D84"
+			}
+		},
+		{
+			"name": "Markup: Punctuation Def String End",
+			"scope": "punctuation.definition.string.end.markdown",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#8D8D84"
+			}
+		},
+		{
+			"name": "Markup: Link Description",
+			"scope": "string.other.link.title.markdown",
+			"settings": {
+				"foreground": "#006DAF"
+			}
+		},
+		{
+			"name": "Markup: Underline Link",
+			"scope": "markup.underline.link.markdown",
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "#006DAF"
+			}
+		},
+		{
+			"name": "Markup: Underline Link Image",
+			"scope": "markup.underline.link.image.markdown",
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "#006DAF"
+			}
+		},
+		{
+			"name": "Markup: Link Reference Def",
+			"scope": "constant.other.reference.link.markdown",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#8D8D84"
+			}
+		},
+		{
+			"name": "Markup: Fenced_code Block",
+			"scope": "markup.fenced_code.block",
+			"settings": {
+				"foreground": "#006400",
+				"background": "#FDFFF7"
 			}
 		},
 		{
@@ -326,7 +514,8 @@
 				"markup.raw"
 			],
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#006400",
+				"background": "#FDFFF7"
 			}
 		},
 		{
@@ -340,7 +529,7 @@
 			"name": "Markup: Heading",
 			"scope": "markup.heading",
 			"settings": {
-				"foreground": "#AA3731"
+				"foreground": "#2A489E"
 			}
 		},
 		{
@@ -368,14 +557,14 @@
 			"name": "Markup Quote",
 			"scope": "markup.quote",
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#006400",
+				"background": "FDFFF7"
 			}
 		},
 		{
 			"name": "Markup Lists",
 			"scope": "markup.list",
 			"settings": {
-				"foreground": "#4B83CD"
 			}
 		},
 		{
@@ -385,15 +574,14 @@
 				"markup.italic"
 			],
 			"settings": {
-				"foreground": "#448C27"
 			}
 		},
 		{
 			"name": "Markup Inline",
 			"scope": "markup.inline.raw",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#AB6526"
+				"foreground": "#006400",
+				"background": "#FDFFF7"
 			}
 		},
 		{
