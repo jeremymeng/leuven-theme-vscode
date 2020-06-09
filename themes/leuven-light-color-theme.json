@@ -8,9 +8,10 @@
 		"editor.selectionBackground": "#8ED3FF",
 		"editor.selectionHighlightBackground": "#9E3699AA",
 		"editor.selectionForeground": "#FFFFFF",
+		"editor.wordHighlightBackground": "#E6ECFFAA",
 		"diffEditor.insertedTextBackground": "#DDFFDDAA",
 		"diffEditor.removedTextBackground": "#FEE8E9AA",
-		"editor.lineHighlightBackground": "#E6ECFF",
+		"editor.lineHighlightBackground": "#F6FECDAA",
 		"editorBracketMatch.background": "#C0E8C3",
 		"editorBracketMatch.border": "#FFA5A5",
 		"editorError.foreground": "#FE251E",
@@ -45,7 +46,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#036A07"
+				"foreground": "#8D8D84"
 			}
 		},
 		{
@@ -104,13 +105,32 @@
 			}
 		},
 		{
+			"name": "Variables: Other",
+			"scope": [
+				"variable.other.jsdoc",
+			],
+			"settings": {
+				"foreground": "#8B7500" // gold4
+			}
+		},		{
+			"name": "Variables: Other jsdoc",
+			"scope": [
+				"variable.other.object",
+				"variable.other.property",
+				"variable.other.readwrite",
+				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
 			"name": "Functions",
 			"scope": [
 				"entity.name.function",
 				"support.function"
 			],
 			"settings": {
-				"fontStyle": "bold",
 				"foreground": "#006699"
 			}
 		},
