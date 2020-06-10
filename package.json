@@ -3,6 +3,7 @@
     "displayName": "Leuven Theme",
     "description": "Port of emacs-leuven-theme",
     "version": "0.0.1",
+    "publisher": "jymeng",
     "engines": {
         "vscode": "^1.45.0"
     },
@@ -12,7 +13,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "leuven-light",
+                "label": "Leuven Light",
                 "uiTheme": "vs",
                 "path": "./themes/leuven-light-color-theme.json"
             }
