@@ -6,7 +6,7 @@
 		"editor.foreground": "#333333",
 		"editorCursor.background": "#21BDFF",
 		"editor.selectionBackground": "#8ED3FF",
-		"editor.selectionHighlightBackground": "#9E3699AA",
+		"editor.selectionHighlightBackground": "#FFFF00AA",
 		"editor.selectionForeground": "#FFFFFF",
 		"editor.wordHighlightBackground": "#E6ECFFAA",
 		"diffEditor.insertedTextBackground": "#DDFFDDAA",

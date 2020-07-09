@@ -1,13 +1,24 @@
 {
     "name": "leuven-vscode",
     "displayName": "Leuven Theme",
-    "description": "Port of emacs-leuven-theme",
-    "version": "0.0.1",
+    "description": "Port of emacs-leuven-theme for VS Code",
+    "version": "0.0.2",
     "publisher": "jymeng",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jeremymeng/leuven-theme-vscode.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jeremymeng/leuven-theme-vscode/issues"
+    },
     "engines": {
         "vscode": "^1.45.0"
     },
     "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "VSCode",
         "Themes"
     ],
     "contributes": {
