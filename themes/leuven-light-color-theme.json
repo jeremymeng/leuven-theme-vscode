@@ -12,6 +12,7 @@
 		"diffEditor.insertedTextBackground": "#DDFFDDAA",
 		"diffEditor.removedTextBackground": "#FEE8E9AA",
 		"editor.lineHighlightBackground": "#F6FECDAA",
+		"editorSuggestWidget.focusHighlightForeground": "#9DDDFF",
 		"editorBracketMatch.background": "#C0E8C3",
 		"editorBracketMatch.border": "#FFA5A5",
 		"editorError.foreground": "#FE251E",
