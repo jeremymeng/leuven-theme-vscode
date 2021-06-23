@@ -2,7 +2,7 @@
     "name": "leuven-vscode",
     "displayName": "Leuven Theme",
     "description": "Port of emacs-leuven-theme for VS Code",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "jymeng",
     "repository": {
         "type": "git",

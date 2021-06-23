@@ -17,7 +17,8 @@
 		"editorBracketMatch.border": "#FFA5A5",
 		"editorError.foreground": "#FE251E",
 		"editorWarning.foreground": "#F4A939",
-		"editorInfo.foreground": "#158A15"
+		"editorInfo.foreground": "#158A15",
+		"list.focusHighlightForeground": "#9DDDFF"
 	},
 	"tokenColors": [
 		{
