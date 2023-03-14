@@ -374,9 +374,12 @@
 		},
 		{
 			"name": "Markup: Deletion",
-			"scope": "markup.deleted",
+			"scope": [
+				"markup.deleted",
+				"punctuation.definition.deleted"
+			],
 			"settings": {
-				"foreground": "#000000",
+				"foreground": "#CC3333",
 				"background": "#FEE8E9"
 			}
 		},
@@ -404,9 +407,12 @@
 		},
 		{
 			"name": "Markup: Insertion",
-			"scope": "markup.inserted",
+			"scope": [
+				"markup.inserted",
+				"punctuation.definition.inserted"
+			],
 			"settings": {
-				"foreground": "#000000",
+				"foreground": "#3A993A",
 				"background": "#DDFFDD"
 			}
 		},
