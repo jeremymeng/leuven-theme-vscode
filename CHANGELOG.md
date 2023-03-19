@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.5
+
+- fix diff highlighting in magit [PR #1](https://github.com/jeremymeng/leuven-theme-vscode/pull/1). Thanks to [@matklad](https://github.com/matklad)!
+
 ## 0.0.4
 - Add `"list.focusHighlightForeground": "#9DDDFF"`
 
