@@ -29,5 +29,11 @@
                 "path": "./themes/leuven-light-color-theme.json"
             }
         ]
+    },
+    "devDependencies": {
+        "@vscode/vsce": "latest"
+    },
+    "scripts": {
+        "package": "vsce package"
     }
 }
