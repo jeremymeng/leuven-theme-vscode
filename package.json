@@ -31,7 +31,7 @@
         ]
     },
     "devDependencies": {
-        "@vscode/vsce": "latest"
+        "@vscode/vsce": "^3.x"
     },
     "scripts": {
         "package": "vsce package"
