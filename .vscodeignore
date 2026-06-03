@@ -1,4 +1,6 @@
-.vscode/**
-.vscode-test/**
+.vscode/
+.vscode-test/
+.github/
 .gitignore
+demo/
 vsc-extension-quickstart.md
