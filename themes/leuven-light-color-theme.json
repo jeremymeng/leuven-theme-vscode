@@ -107,15 +107,16 @@
 			}
 		},
 		{
-			"name": "Variables: Other",
+			"name": "Variables: Other jsdoc",
 			"scope": [
-				"variable.other.jsdoc",
+				"variable.other.jsdoc"
 			],
 			"settings": {
-				"foreground": "#8B7500" // gold4
+				"foreground": "#8B7500"
 			}
-		},		{
-			"name": "Variables: Other jsdoc",
+		},
+		{
+			"name": "Variables: Other",
 			"scope": [
 				"variable.other.object",
 				"variable.other.property",
@@ -217,7 +218,7 @@
 				"meta.tag.sgml punctuation.definition.tag.html"
 			],
 			"settings": {
-				// "foreground": "#AAAAAA"
+				"foreground": "#7F7F7F"
 			}
 		},
 		{
@@ -271,7 +272,7 @@
 				"punctuation.definition.entity"
 			],
 			"settings": {
-				//"foreground": "#AB6526"
+				"foreground": "#AB6526"
 			}
 		},
 		{
